@@ -1,0 +1,13 @@
+# filepath: /Users/mvillatoro/Desktop/COPILOT/The Grouch
+import folium
+
+# Create the map
+my_map = folium.Map(
+    location=(39.8283, -98.5795),
+    zoom_start=4,
+    control_scale=True,
+)
+
+# Save the map to an HTML file
+my_map.save("map.html")
+print("Map has been saved as 'map.html'")
